@@ -1,17 +1,17 @@
 function main(numOne, numTwo) {
-   
-    var numOne 
+
+    var numOne
     var numTwo
     var myQuotient
 
     myQuotient = numOne / numTwo;
 
-    return myQuotient; 
-    }
+    return myQuotient;
+}
 
 
 console.log(main(5.0, 2.0));
 console.log(main(16.5, 5.5));
 console.log(main(102.0, 25.50));
 
-modul.exports=main;
+module.exports = main;

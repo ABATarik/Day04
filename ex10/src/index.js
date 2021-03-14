@@ -3,15 +3,15 @@ function main() {
     var myLastName = "Abaspahic";
     var myHomeTown = "Sarajevo";
 
-    
-        return {
+
+    return {
         myFirstName,
         myLastName,
         myHomeTown
-    
-        }
+
     }
-    
-    console.log(main());
-    
-    module.exports = main;
+}
+
+console.log(main());
+
+module.exports = main;
