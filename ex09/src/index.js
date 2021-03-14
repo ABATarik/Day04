@@ -1,20 +1,24 @@
 function main() {
-    var firstNum = 6;
-    var secundNum =25;
-    var thirdNum =5.2
-    
+    var firstNum
+    var secundNum
+    var thirdNum
+    firstNum = 6;
+    secundNum = 25;
+    thirdNum = 5.2;
+
+
     firstNum *= 9;
     secundNum /= 5;
     thirdNum *= 10;
-    
-        return {
-       firstNum,
-       secundNum,
-       thirdNum
-    
-        };
-    }
-    
-    console.log(main());
-    
-    module.exports = main;
+
+    return {
+        firstNum,
+        secundNum,
+        thirdNum
+
+    };
+}
+
+console.log(main());
+
+module.exports = main;

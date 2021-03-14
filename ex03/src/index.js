@@ -1,16 +1,15 @@
-function main(){
+function main() {
 
     var myRes = 16;
     myRes--;
 
-    return myRes; 
+    return myRes;
 }
-    
-
- 
 
 
-console.log (main());
 
 
-modul.exports=main;
+
+console.log(main());
+
+module.exports = main;
